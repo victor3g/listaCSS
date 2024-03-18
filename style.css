@@ -1,0 +1,47 @@
+.page {
+    width: 230mm;
+    height: 240mm;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header{
+    background-color: #5F9EA0;
+    top: 0;
+    height: 30mm;
+}
+
+header h1{
+    margin-left: 34%;
+}
+nav {
+    background-color: #778899;
+    left: auto;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    width: 12%;
+    margin-left: 1.5%;
+}
+
+nav p{
+    margin-left: 5%;
+}
+
+nav h3{
+    margin-left: 5%;
+}
+
+nav img{
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+section{
+    position: fixed;
+    right: auto;
+    margin-left: 14.5%;
+}
