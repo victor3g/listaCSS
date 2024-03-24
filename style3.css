@@ -1,0 +1,55 @@
+.link-a {
+    text-decoration: none;
+}
+
+.link-b {
+    text-decoration: underline overline;
+}
+
+.link-b:active {
+    text-decoration: line-through;
+}
+
+.link-b:visited {
+    text-decoration: underline underline;
+}
+
+.link-c {
+    color: orange;
+}
+
+.link-c:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+.link-d {
+    border: 1px solid blue;
+    background-color: black;
+    color: white;
+}
+
+.link-d:hover {
+    border: 1px dotted black;
+    background-color: white;
+    color: black;
+}
+
+.link-e {
+    color: red;
+    text-decoration: none;
+}
+
+.link-e:visited {
+    font-style: italic;
+    font-weight: bold;
+    color: orange;
+}
+
+.link-e:hover {
+    text-decoration: underline;
+}
+
+.link-e:active {
+    color: yellow;
+}
