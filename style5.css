@@ -1,0 +1,30 @@
+ul {
+    list-style: none;
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+}
+
+li {
+    position: relative;
+    padding-left: 20px;
+    color: red;
+    border-bottom: 1px solid red;
+    transition: color 0.3s, border-color 0.3s;
+}
+
+li:before {
+    content: "►";
+    position: absolute;
+    left: 0;
+    color: red;
+}
+
+li:hover {
+    color: green;
+    border-color: green;
+    cursor: pointer;
+}
+
+li:hover:before {
+    color: green;
+}
